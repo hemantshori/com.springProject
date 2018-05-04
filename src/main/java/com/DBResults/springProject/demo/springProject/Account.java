@@ -1,16 +1,37 @@
 package com.DBResults.springProject.demo.springProject;
 
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
 
-@Component
 
-public class SavingAccount implements Account{
+
+
+
+public class Account{
 	
-	
+	int accNo;
+	String accName;
+
+
+
+
+	public int getAccNo() {
+		return accNo;
+	}
+
+	public void setAccNo(int accNo) {
+		this.accNo = accNo;
+	}
+
+	public String getAccName() {
+		return accName;
+	}
+
+	public void setAccName(String accName) {
+		this.accName = accName;
+	}
+
 	public void accountType()
 	{
-		System.out.println("this is saving account");
+		System.out.println("Hello " +accName +"your account number is " +accNo);
 	}
 
 }

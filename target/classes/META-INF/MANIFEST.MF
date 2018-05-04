@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Implementation-Title: demo.springProject
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: HemantShori
+Built-By: Hemant
 Implementation-Vendor-Id: com.DBResults.springProject
-Build-Jdk: 1.8.0_101
-Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
- starter-parent/demo.springProject/
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/demo.springProject
 Created-By: Maven Integration for Eclipse
 
