@@ -11,8 +11,9 @@
   <property name="accNo" value= "243"></property>
  </bean>
 
-  <bean id = "tran" class = "com.DBResults.springProject.demo.springProject.Transaction">
- <property name="account" ref="accObj"></property>
+
+  <bean id = "tran" autowire="byType" class= "com.DBResults.springProject.demo.springProject.Transaction">
+ 
 
  </bean>
 
